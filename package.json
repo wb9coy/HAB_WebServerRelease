@@ -1,0 +1,26 @@
+{
+  "name": "HABServer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-photo-gallery": "^1.0.9",
+    "ftp-srv": "^4.6.3",
+    "nmea-simple": "^3.3.0",
+    "sleep": "^6.3.0",
+    "socket.io": "^4.7.5",
+    "ws": "^8.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
