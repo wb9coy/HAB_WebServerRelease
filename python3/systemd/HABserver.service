@@ -1,0 +1,12 @@
+[Unit]
+Description=HAB Server
+After=multi-user.target
+
+[Service]
+Type=simple
+Restart=always
+WorkingDirectory=/home/gswiech/HAB_Server
+ExecStart=/home/gswiech/HAB_Server/startServer.sh
+
+[Install]
+WantedBy=multi-user.target
